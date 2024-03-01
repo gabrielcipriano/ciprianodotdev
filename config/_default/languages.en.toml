@@ -18,7 +18,6 @@ title = "Gabriel Cipriano"
   # headline = "I'm only human"
   # bio = "A little bit about you"
   links = [
-   { email = "mailto:gabrielfcipriano@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
@@ -32,6 +31,7 @@ title = "Gabriel Cipriano"
   #   { foursquare = "https://foursquare.com/username" },
     { github = "https://github.com/gabrielcipriano" },
     { linkedin = "https://linkedin.com/in/gabrielcipriano" },
+    { email = "mailto:gabriel@cipriano.dev" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
