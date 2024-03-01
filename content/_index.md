@@ -1,5 +1,5 @@
 ---
-title: "Gabriel Cipriano - Software Engineer"
+title: "Gabriel Cipriano 🧑‍🌾"
 description: "Gabriel Cipriano - Software Engineer"
 ---
 
