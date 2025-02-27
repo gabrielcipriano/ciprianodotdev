@@ -14,3 +14,7 @@ hugo server -b http://localhost -p 8000
 ```bash
 hugo
 ```
+
+## to publish
+
+Just push to the main branch and the github pages will update automatically
