@@ -15,6 +15,11 @@ tags = [
 
 Ever had a build fail with cryptic errors about missing dependencies, even though you *know* the packages are installed? If you're using `pnpm`, the issue might be a stray `.pnp.cjs` file lurking in an unexpected place <del>because your past self did something dumb<del>.
 
+### **TL;DR**
+- **Problem**: Build failed with unresolved dependency errors (`chalk`, `hanji`, `zod`) due to a stray `.pnp.cjs` file in a parent directory.
+- **Solution**: Found the file using `find ~ -name ".pnp.*"` and deleted it with `rm .pnp.cjs`.
+- **Why**: Yarn PnP's `.pnp.*` file in a parent directory interfered with `pnpm`'s dependency resolution.
+
 ### What Happened?
 While working on a recently cloned project with `pnpm`, my builds where failing with errors about unresolved packages like `chalk`, `hanji`, and `zod`. The logs pointed to Yarn PnP, which was odd because I wasn’t using Yarn. After some digging, I found a `.pnp.cjs` file in my `~/git/` folder. This file was interfering with `pnpm` somehow, making it act like it was in a Yarn PnP environment.
 
