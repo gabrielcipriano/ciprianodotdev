@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hugo -b $CF_PAGES_URL
+hugo --buildDrafts -b $CF_PAGES_URL
