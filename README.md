@@ -17,4 +17,4 @@ hugo
 
 ## to publish
 
-Just push to the main branch and the github pages will update automatically
+Just push to the main branch and the [cloufare pages](https://pages.cloudflare.com/) will update automatically
