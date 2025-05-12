@@ -16,3 +16,7 @@ summaryLength = 0
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[services]
+  [services.disqus]
+    shortname = 'cipriano-dev'
