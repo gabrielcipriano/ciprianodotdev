@@ -4,12 +4,14 @@ follow the hugo installation guide: https://gohugo.io/installation/
 
 ## draft lifecycle
 
-1. `checkout drafts`
+1. `checkout main`
 2. create a new post with `hugo new posts/<post-name>.md`
-3. commit and push to the `drafts` branch
-4. Go to [cloud flare pages](https://pages.cloudflare.com/) and see the preview
-5. If happy, cherry-pick the commit to the `main` branch.
-6. change to `draft = false` in the post front matter
+3. commit and push 
+4. `git checkout drafts` 
+5. `git merge main` and `git push`
+6. Go to [cloud flare pages](https://pages.cloudflare.com/) and see the preview
+7. If happy, `git checkout main`
+8. change to `draft = false` in the post front matter
 
 obs. DO NOT MERGE THE DRAFTS BRANCH INTO MAIN, as it has a different `build.sh` file that publishes the draft posts.
 
