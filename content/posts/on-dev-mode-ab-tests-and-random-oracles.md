@@ -1,7 +1,7 @@
 +++
 title = 'on Dev Mode, A/B tests and Random Oracles'
 date = 2025-05-10T10:34:04+01:00
-draft = true
+draft = false
 tags = [
   "DevMode",
   "ABTests",
